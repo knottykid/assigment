@@ -7,4 +7,9 @@ describe("Greet", () => {
     const result = Greet("Bob");
     expect(result).toBe(expected);
   });
+  it("works", () => {
+    const expected = "Hello, my friend";
+    const result = Greet(null);
+    expect(result).toBe(expected);
+  });
 });
